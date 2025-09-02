@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Briefing - Site Consultoria de TI</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        padding: 20px;
+        color: #333;
+      }
+      h1 {
+        text-align: center;
+        color: #4b0082;
+      }
+      form {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      label {
+        font-weight: bold;
+        margin-top: 15px;
+        display: block;
+      }
+      textarea,
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      button {
+        background: #4b0082;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      button:hover {
+        background: #360061;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Briefing - Consultoria de TI</h1>
+    <form action="https://formspree.io/f/mrbaygjo" method="POST">
+      <label>1. Nome da Empresa</label>
+      <input type="text" name="empresa" required />
+
+      <label>2. Slogan</label>
+      <input type="text" name="slogan" />
+
+      <label>3. Breve descrição da empresa</label>
+      <textarea name="descricao"></textarea>
+
+      <label>4. Público-alvo</label>
+      <textarea name="publico"></textarea>
+
+      <label>5. Objetivo principal do site</label>
+      <textarea name="objetivo"></textarea>
+
+      <label>6. Páginas desejadas</label>
+      <textarea name="paginas"></textarea>
+
+      <label>7. Conteúdo já disponível (textos, imagens, logo)</label>
+      <textarea name="conteudo"></textarea>
+
+      <label>8. Estilo visual desejado</label>
+      <textarea name="visual"></textarea>
+
+      <label>9. Exemplos de sites que gosta</label>
+      <textarea name="referencias"></textarea>
+
+      <label>10. Prazo de entrega</label>
+      <input type="text" name="prazo" />
+
+      <label>11. Contato (nome, e-mail, telefone)</label>
+      <textarea name="contato"></textarea>
+
+      <button type="submit">Enviar Briefing</button>
+    </form>
+  </body>
+</html>
